@@ -4,13 +4,13 @@ header {
 }
 
 header img {
-    flex: 1; /* A imagem ocupa 1 parte do espaço disponível */
+    flex: 0.5; /* A imagem ocupa 1 parte do espaço disponível */
     max-width: 80%; /* Garante que a imagem não ultrapasse seu tamanho natural */
     height: auto; /* Permite que a altura da imagem seja ajustada automaticamente */
 }
 
 .texto {
-    flex: 5; /* O texto ocupa 3 partes do espaço disponível */
+    flex: 5; /* O texto ocupa 5 partes do espaço disponível */
     padding-left: 20px; /* Espaçamento à esquerda para separar da imagem */
     font-size: 16px;
 }
