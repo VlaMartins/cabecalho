@@ -11,7 +11,7 @@ header {
 }
 
 .logo img {
-    height: 10px; /* Altura logo */
+    width: 10px; /* Altura logo */
 }
 
 .header__titulo {
