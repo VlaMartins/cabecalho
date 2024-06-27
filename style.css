@@ -15,7 +15,7 @@ header {
 }
 
 .titulo {
-    flex: 2; /* Ocupa duas vezes o espaço da logo */
+    flex: 1; /* Ocupa duas vezes o espaço da logo */
     text-align: center; /* Alinhar texto ao centro */
 }
 
