@@ -1,0 +1,24 @@
+header {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto do cabeçalho */
+    padding: 10px 20px; /* Espaçamento interno */
+    display: flex; /* Flexbox para alinhar itens */
+    align-items: center; /* Alinhar itens verticalmente */
+}
+
+.logo {
+    flex: 1; /* Ocupa todo o espaço disponível */
+}
+
+.logo img {
+    height: 50px; /* Altura logo */
+}
+
+.titulo {
+    flex: 2; /* Ocupa duas vezes o espaço da logo */
+    text-align: center; /* Alinhar texto ao centro */
+}
+
+.titulo h1 {
+    margin: 0; /* Remover margens padrão do h1 */
+}
