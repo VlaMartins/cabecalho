@@ -14,7 +14,7 @@ header img {
     height: auto; /* Permite que a altura da imagem seja ajustada automaticamente */
 }
 
-.texto {
+.titulo {
     flex: 5; /* O texto ocupa 5 partes do espaço disponível */
     padding-left: 20px; /* Espaçamento à esquerda para separar da imagem */
     font-size: 25px;
@@ -33,7 +33,7 @@ header img {
         height: auto; /* Permite que a altura da imagem seja ajustada automaticamente */
     }
     
-    .texto {
+    .titulo {
         padding-left: 0; /* Remove o espaçamento à esquerda para telas menores */
     }
 }
