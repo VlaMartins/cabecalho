@@ -10,7 +10,7 @@ header img {
 }
 
 .texto {
-    flex: 2; /* O texto ocupa 3 partes do espaço disponível */
+    flex: 1; /* O texto ocupa 3 partes do espaço disponível */
     padding-left: 20px; /* Espaçamento à esquerda para separar da imagem */
     font-size: 16px;
 }
