@@ -19,6 +19,7 @@ header img {
     padding-left: 20px; /* Espaçamento à esquerda para separar da imagem */
     font-size: 25px;
     line-height: 1.5;
+    text-align: center;
 }
 
 /*responsividade do cabeçalho*/
