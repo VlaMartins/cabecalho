@@ -7,7 +7,7 @@ header {
 }
 
 .header__logo {
-    flex: 1; /* Ocupa todo o espaço disponível */
+    flex: 2; /* Ocupa todo o espaço disponível */
 }
 
 .logo img {
