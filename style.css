@@ -1,24 +1,32 @@
 header {
-    background-color: #0D0D0D; /* Cor de fundo do cabeçalho */
-    color: #e8e7c5; /* Cor do texto do cabeçalho */
-    padding: 10px 20px; /* Espaçamento interno */
-    display: flex; /* Flexbox para alinhar itens */
-    align-items: center; /* Alinhar itens verticalmente */
+    display: flex; /* Utiliza Flexbox para alinhar os elementos */
+    margin: 20px; /* Margem para separar a seção de outros elementos */
 }
 
-.header__logo {
-    flex: 1; /* Ocupa todo o espaço disponível */
+header img {
+    flex: 1; /* A imagem ocupa 1 parte do espaço disponível */
+    max-width: 100%; /* Garante que a imagem não ultrapasse seu tamanho natural */
+    height: auto; /* Permite que a altura da imagem seja ajustada automaticamente */
 }
 
-.logo img {
-    width: 10px; /* Altura logo */
+.texto {
+    flex: 3; /* O texto ocupa 3 partes do espaço disponível */
+    padding-left: 20px; /* Espaçamento à esquerda para separar da imagem */
 }
 
-.header__titulo {
-    flex: 2; /* Ocupa duas vezes o espaço da logo */
-    text-align: center; /* Alinhar texto ao centro */
-}
-
-.header__titulo h1 {
-    margin: 0; /* Remover margens padrão do h1 */
+/*responsividade do cabeçalho*/
+@media (max-width: 768px) {
+    /* Estilos para telas menores (responsividade) */
+    header {
+        flex-direction: column; /* Empilha os itens verticalmente */
+    }
+    
+    header img {
+        max-width: 100%; /* A imagem ocupa toda a largura disponível */
+        height: auto; /* Permite que a altura da imagem seja ajustada automaticamente */
+    }
+    
+    .texto {
+        padding-left: 0; /* Remove o espaçamento à esquerda para telas menores */
+    }
 }
