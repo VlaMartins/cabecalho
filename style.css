@@ -6,7 +6,7 @@ header {
     align-items: center; /* Alinhar itens verticalmente */
 }
 
-.logo {
+.header__logo {
     flex: 5; /* Ocupa todo o espaço disponível */
 }
 
@@ -14,11 +14,11 @@ header {
     width: 20px; /* Altura logo */
 }
 
-.titulo {
+.header__titulo {
     flex: 3; /* Ocupa duas vezes o espaço da logo */
     text-align: center; /* Alinhar texto ao centro */
 }
 
-.titulo h1 {
+.header__titulo h1 {
     margin: 0; /* Remover margens padrão do h1 */
 }
