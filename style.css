@@ -7,7 +7,7 @@ header {
 }
 
 .header__logo {
-    flex: 2; /* Ocupa todo o espaço disponível */
+    flex: 1; /* Ocupa todo o espaço disponível */
 }
 
 .logo img {
@@ -15,7 +15,7 @@ header {
 }
 
 .header__titulo {
-    flex: 2; /* Ocupa duas vezes o espaço da logo */
+    flex: 5; /* Ocupa duas vezes o espaço da logo */
     text-align: center; /* Alinhar texto ao centro */
 }
 
