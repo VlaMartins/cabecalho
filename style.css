@@ -1,6 +1,6 @@
 header {
-    background-color: #333; /* Cor de fundo do cabeçalho */
-    color: #fff; /* Cor do texto do cabeçalho */
+    background-color: #0D0D0D; /* Cor de fundo do cabeçalho */
+    color: #e8e7c5; /* Cor do texto do cabeçalho */
     padding: 10px 20px; /* Espaçamento interno */
     display: flex; /* Flexbox para alinhar itens */
     align-items: center; /* Alinhar itens verticalmente */
