@@ -6,6 +6,7 @@
 header {
     display: flex; /* Utiliza Flexbox para alinhar os elementos */
     margin: 20px; /* Margem para separar a seção de outros elementos */
+    background-color: brown;
 }
 
 header img {
