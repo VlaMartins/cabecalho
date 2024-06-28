@@ -15,7 +15,7 @@ header img{
 }
 
 .cabecalho__texto{
-    width: 70%; /* Cada div ocupa 50% da largura do container */
+    width: 65%; /* Cada div ocupa 50% da largura do container */
     float: left; /* Faz as divs flutuarem lado a lado */
     box-sizing: border-box; /* Garante que padding e bordas não aumentem o tamanho */
     padding: 20px; /* Exemplo de padding para espaçamento interno */
