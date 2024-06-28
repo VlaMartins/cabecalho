@@ -3,7 +3,7 @@
     text-align: center;
 }
 
-.cabecalho__logo, cabecalho__texto {
+.cabecalho__logo, .cabecalho__texto {
     width: 50%; /* Cada div ocupa 50% da largura do container */
     float: left; /* Faz as divs flutuarem lado a lado */
     box-sizing: border-box; /* Garante que padding e bordas não aumentem o tamanho */
