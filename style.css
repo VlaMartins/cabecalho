@@ -3,22 +3,16 @@
     text-align: center;
 }
 
-.img__logo{
-    width: 30%;
-}
-.cabecalho__logo {
-    width: 30%; /* Cada div ocupa 50% da largura do container */
-    float: left; /* Faz as divs flutuarem lado a lado */
-    padding: 20px; /* Exemplo de padding para espaçamento interno */
-    box-sizing: border-box; /* Garante que padding e bordas não aumentem o tamanho */
-
-}
-
-.cabecalho__texto{
-    width: 65%; /* Cada div ocupa 50% da largura do container */
+.cabecalho__logo, .cabecalho__texto {
+    width: 50%; /* Cada div ocupa 50% da largura do container */
+    height: 40%;
     float: left; /* Faz as divs flutuarem lado a lado */
     box-sizing: border-box; /* Garante que padding e bordas não aumentem o tamanho */
     padding: 20px; /* Exemplo de padding para espaçamento interno */
     border: 1px solid #ccc; /* Exemplo de borda para visualização */
     text-align: center;
+}
+
+.cabecalho img{
+    width: 100px;
 }
