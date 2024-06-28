@@ -1,41 +1,12 @@
-*{
-    margin: 0;
-    padding: 0;
+.cabecalho {
+    overflow: hidden; /* Clearfix para conter floats */
 }
 
-header {
-    display: flex; /* Utiliza Flexbox para alinhar os elementos */
-    margin: 20px; /* Margem para separar a seção de outros elementos */
-    background-color: brown;
-}
-
-header img {
-    flex: 0.5; /* A imagem ocupa 1/2 parte do espaço disponível */
-    max-width: 80%; /* Garante que a imagem não ultrapasse seu tamanho natural */
-    height: auto; /* Permite que a altura da imagem seja ajustada automaticamente */
-}
-
-.titulo {
-    flex: 5; /* O texto ocupa 5 partes do espaço disponível */
-    padding-left: 20px; /* Espaçamento à esquerda para separar da imagem */
-    font-size: 25px;
-    line-height: 1.5;
+.cabecalho__logo, cabecalho__texto {
+    width: 50%; /* Cada div ocupa 50% da largura do container */
+    float: left; /* Faz as divs flutuarem lado a lado */
+    box-sizing: border-box; /* Garante que padding e bordas não aumentem o tamanho */
+    padding: 20px; /* Exemplo de padding para espaçamento interno */
+    border: 1px solid #ccc; /* Exemplo de borda para visualização */
     text-align: center;
-}
-
-/*responsividade do cabeçalho*/
-@media (max-width: 768px) {
-    /* Estilos para telas menores (responsividade) */
-    header {
-        flex-direction: column; /* Empilha os itens verticalmente */
-    }
-    
-    header img {
-        max-width: 100%; /* A imagem ocupa toda a largura disponível */
-        height: auto; /* Permite que a altura da imagem seja ajustada automaticamente */
-    }
-    
-    .titulo {
-        padding-left: 0; /* Remove o espaçamento à esquerda para telas menores */
-    }
 }
