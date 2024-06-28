@@ -3,6 +3,9 @@
     text-align: center;
 }
 
+header img{
+    width: 50%;
+}
 .cabecalho__logo {
     width: 30%; /* Cada div ocupa 50% da largura do container */
     float: left; /* Faz as divs flutuarem lado a lado */
