@@ -5,7 +5,7 @@
 
 .cabecalho__logo, .cabecalho__texto {
     width: 49%; /* Cada div ocupa 50% da largura do container */
-    float: left; /* Faz as divs flutuarem lado a lado */
+    float: center; /* Faz as divs flutuarem lado a lado */
     box-sizing: border-box; /* Garante que padding e bordas não aumentem o tamanho */
     padding: 20px; /* Exemplo de padding para espaçamento interno */
     border: 1px solid #ccc; /* Exemplo de borda para visualização */
